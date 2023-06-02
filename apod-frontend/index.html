@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework 6</title>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+  </head>
+  <body>
+	<h1>Task 1</h1>
+	<p>Load the photo for the specified date!</p>
+	<input type="date" id="q1-input">
+	<button id="q1-load" onclick="load_q1()">Load</button>
+	<h2 id="q1-header"></h2>
+	<img id="q1-img"/>
+
+	<h1>Task 2</h1>
+	<p>Load all photos from April 2022! (There should be 30.)</p>
+	<button id="q2-load" onclick="load_q2()">Load</button>
+	<h2 id="q2-header"></h2>
+	<div id="q2-container"></div>
+
+	
+	<h1>Task 3</h1>
+	<p>Load all of the photos from the selected month!</p>
+	<input type="month" id="q3-input">
+	<button id="q3-load" onclick="load_q3()">Load</button>
+	<h2 id="q3-header"></h2>
+	<div id="q3-container"></div>
+  </body>
+</html>

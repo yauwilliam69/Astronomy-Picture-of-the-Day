@@ -1,0 +1,19 @@
+img {
+	border-radius: 8px;
+	width: 50%
+}
+
+#q2-container img {
+	width: 10%;
+	padding: .5rem;
+}
+
+#q3-container img {
+	width: 10%;
+	padding: .5rem;
+}
+
+body {
+	padding-bottom: 4rem;;
+}
+
